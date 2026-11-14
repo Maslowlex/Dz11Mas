@@ -8,22 +8,22 @@ void inputProduct(Product* p, int index) {
     scanf(" %[^\n]", p->name);
 
     printf("Дата производства (ДД.ММ.ГГГГ): ");
-    scanf("%d.%d.%d", &p->manufactureDate.day, &p->manufactureDate.month, &p->manufactureDate.year);
+    scanf("%d.%d.%d", &p->manufacture_Date.day, &p->manufacture_Date.month, &p->manufacture_Date.year);
 
     printf("Срок годности (годен до, ДД.ММ.ГГГГ): ");
-    scanf("%d.%d.%d", &p->expiryDate.day, &p->expiryDate.month, &p->expiryDate.year);
+    scanf("%d.%d.%d", &p->expiry_Date.day, &p->expiry_Date.month, &p->expiry_Date.year);
 
     printf("Цена: ");
     scanf("%f", &p->price);
 
     printf("Номер серии: ");
-    scanf("%d", &p->seriesNumber);
+    scanf("%d", &p->series_Number);
 }
 
 void printProductResult(const Product* p) {
     printf("Товар: %-20s | Годен до: %02d.%02d.%04d\n",
         p->name,
-        p->expiryDate.day,
-        p->expiryDate.month,
-        p->expiryDate.year);
+        p->expiry_Date.day,
+        p->expiry_Date.month,
+        p->expiry_Date.year);
 }

@@ -11,10 +11,10 @@ typedef struct {
 
 typedef struct {
     char name[100];     
-    Date manufactureDate;
-    Date expiryDate;     
+    Date manufacture_Date;
+    Date expiry_Date;     
     float price;         
-    int seriesNumber;    
+    int series_Number;    
 } Product;
 
 void inputProduct(Product* p, int index);
