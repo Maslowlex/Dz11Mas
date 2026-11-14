@@ -11,6 +11,7 @@ int main() {
     Product products[3];
 
     printf("=== Программа учета товаров (Вариант 13) ===\n");
+    printf("===        Маслов А.Е. бИЦТ-262          ===\n");
 
     for (int i = 0; i < 3; i++) {
         inputProduct(&products[i], i);
