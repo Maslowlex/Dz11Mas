@@ -29,7 +29,7 @@
 
 ## 2. Результат работы программы
 
-<img width="1035" height="635" alt="image" src="https://github.com/user-attachments/assets/adb95d86-a0d6-43e6-ba53-992aad02a3f3" />
+<img width="943" height="665" alt="image" src="https://github.com/user-attachments/assets/d3188081-023a-4814-aa93-aaf23a521401" />
 
 ## 3. Информация о разработчике
 
